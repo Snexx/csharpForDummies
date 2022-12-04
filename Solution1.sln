@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Console", "06-Console", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleForDummies", "ConsoleForDummies\ConsoleForDummies.csproj", "{3BF62BC0-ECC0-4269-8261-28C75FE8D07A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstConsole", "MyFirstConsole\MyFirstConsole.csproj", "{659135C9-C58C-4344-9A12-E77F240E4EEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{3BF62BC0-ECC0-4269-8261-28C75FE8D07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BF62BC0-ECC0-4269-8261-28C75FE8D07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BF62BC0-ECC0-4269-8261-28C75FE8D07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659135C9-C58C-4344-9A12-E77F240E4EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659135C9-C58C-4344-9A12-E77F240E4EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659135C9-C58C-4344-9A12-E77F240E4EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659135C9-C58C-4344-9A12-E77F240E4EEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3BF62BC0-ECC0-4269-8261-28C75FE8D07A} = {916E29AC-98ED-4128-8CE7-28B6C9B4B131}
+		{659135C9-C58C-4344-9A12-E77F240E4EEE} = {916E29AC-98ED-4128-8CE7-28B6C9B4B131}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C5B9AFD-7E0A-4C4F-A1FB-A71FA9AFF5B8}
