@@ -52,11 +52,11 @@ namespace ConsoleForDummies
             //imprimir un texto con los 3 datos registrados por el usuario.
 
             Console.WriteLine("ingrese un animal");
-            var animalConsola =  Console.ReadLine();
+            string animalConsola =  Console.ReadLine();
             Console.WriteLine("ingrese un numero");
-            var numeroConsola = Console.ReadLine();
+            string numeroConsola = Console.ReadLine();
             Console.WriteLine("ingrese un bool");
-            var boolConsola = Console.ReadLine();
+            string boolConsola = Console.ReadLine();
 
             Console.WriteLine(animalConsola+" "+numeroConsola+" "+boolConsola);
 
