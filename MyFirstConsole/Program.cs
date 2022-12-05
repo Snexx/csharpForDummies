@@ -99,8 +99,7 @@ namespace MyFirstConsole
             //guardar variables de int
             //restar el 1 y 2 y ejecutar
 
-            string saludo = "bienvenido";
-            Console.WriteLine(saludo);
+            Console.WriteLine("bienvenido");
             string texto0 = "ingrese un numero";
             Console.WriteLine(texto0);
             string texto1 = Console.ReadLine();
@@ -111,13 +110,8 @@ namespace MyFirstConsole
             string texto2 = Console.ReadLine();
             int numero2 = Convert.ToInt32(texto2);
             int numer3 = numero2 - numero1;
-            Console.WriteLine("el numero: "+numero2+" es mayor por "+               numer3);
+            Console.WriteLine("el numero: "+numero2+" es mayor por "+numer3);
 
-
-
-
-
-            
 
 
 
