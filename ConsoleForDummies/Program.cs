@@ -60,7 +60,7 @@ namespace ConsoleForDummies
 
             Console.WriteLine(animalConsola+" "+numeroConsola+" "+boolConsola);
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }
