@@ -11,7 +11,7 @@ namespace ConsolaTarea06_12
         static void Main(string[] args)
         {
 
-            #region Tarea 1
+            #region Tarea 1 OK
 
             //1. Escribir el siguiente texto por consola ("Hola, tenemos que trabajar!")
 
@@ -44,7 +44,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 2
+            #region Tarea 2 OK
 
             //1. Escribir el siguiente texto por consola ("Ejercicio Numero 2, Let's GO")
 
@@ -68,7 +68,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 3
+            #region Tarea 3 OK
             // Se necesita que una consola solicite al usuario 3 numeros, los primeros 2 numeros deben sumarse y el 3 resta al valor total,
             // por pantalla se debe imprimir la suma de los 2 primeros valores y tambien el resultado final al restar el 3.
             //solicita 3 numeros
@@ -93,8 +93,7 @@ namespace ConsolaTarea06_12
             //Console.ReadKey();
             #endregion
 
-
-            #region Tarea 4
+            #region Tarea 4 OK
             //Se necesita que el usuario registre un nombre completo, contraseña, edad y nickname, hacer un formulario basico por consola para consultar estos valores.
             //Estos valores deben ser impresos en pantalla al final en el orden ingresado.
 
@@ -114,7 +113,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 5
+            #region Tarea 5 OK
             // Se necesita que el usuario ingrese su edad y se valide si es mayor de edad
 
             //Console.WriteLine("ingrese su edad");
@@ -143,11 +142,11 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 6
+            #region Tarea 6 OK
             // Se necesita que el usuario ingrese la cantidad de personas que componen
             // su familia para validar si cumple con los requisitos para el bono, si son mas de 4 integrantes recibe $250000,
             //si son mas de 6 recibe $500000, si no cumple con ninguna de las condiciones no recibe bono
-            #endregion
+
 
             //Console.WriteLine("ingrese la cantidad de personas que componen su familia");
             //string personas = Console.ReadLine();
@@ -168,8 +167,9 @@ namespace ConsolaTarea06_12
             // }
 
             //Console.ReadKey();
+            #endregion
 
-            #region Tarea 7
+            #region Tarea 7 OK
             // se necesita que el usuario ingrese la cantidad de kilos de la maleta, si pesa mas de 21
             // requerira pagar un extra por la maleta, si no puede pasar sin recargo
 
@@ -179,19 +179,19 @@ namespace ConsolaTarea06_12
             // int peso2 = Convert.ToInt32(peso1);
 
             // if (21>peso2)
-            {
-                // Console.WriteLine("no paga extra");
-            }
+            //{
+            // Console.WriteLine("no paga extra");
+            //}
             // else
-            {
-                //Console.WriteLine("paga extra");
-            }
+            //{
+            //Console.WriteLine("paga extra");
+            //}
 
 
             //Console.ReadKey();
             #endregion
 
-            #region Tarea 8
+            #region Tarea 8 NOK
             //solicitar que el usuario ingrese 4 numeros, al finalizar indicar cual de los 4 numeros es el mayor.
 
             Console.WriteLine("ingrese 4 numeros");
@@ -205,11 +205,12 @@ namespace ConsolaTarea06_12
             int v = Convert.ToInt32(f);
             int retorno = 0;
 
-            if (z>x)
+            if (z > retorno)
             {
                 retorno = z;
             }
-            else
+
+            if (x > retorno)
             {
                 retorno = x;
             }
@@ -217,14 +218,11 @@ namespace ConsolaTarea06_12
             if (c > retorno)
             {
                 retorno = c;
-
             }
 
             if (v>retorno)
-
             {
                 retorno = v;
-                
             }
             Console.WriteLine("el numero mayo es " + retorno);
 
@@ -233,7 +231,6 @@ namespace ConsolaTarea06_12
             Console.ReadKey();
 
             #endregion
-
 
         }
     }
