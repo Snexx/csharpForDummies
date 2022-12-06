@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleForDummies", "Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstConsole", "MyFirstConsole\MyFirstConsole.csproj", "{659135C9-C58C-4344-9A12-E77F240E4EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolaTarea06-12", "ConsolaTarea06-12\ConsolaTarea06-12.csproj", "{D5F9E313-9728-4003-B526-561F8D8C3E5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolaTareas", "ConsolaTarea06-12\ConsolaTareas.csproj", "{D5F9E313-9728-4003-B526-561F8D8C3E5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
