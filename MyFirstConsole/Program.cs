@@ -118,5 +118,22 @@ namespace MyFirstConsole
 
            Console.ReadKey();
         }
-    }
+    }       #region Tarea 5
+            // Se necesita que el usuario ingrese su edad y se valide si es mayor de edad
+            #endregion
+
+            #region Tarea 6
+            // Se necesita que el usuario ingrese la cantidad de personas que componen
+            // su familia para validar si cumple con los requisitos para el bono, si son mas de 4 integrantes recibe $250000,
+            //si son mas de 6 recibe $500000, si no cumple con ninguna de las condiciones no recibe bono
+            #endregion
+
+            #region Tarea 7
+            // se necesita que el usuario ingrese la cantidad de kilos de la maleta, si pesa mas de 21
+            // requerira pagar un extra por la maleta, si no puede pasar sin recargo
+            #endregion
+
+            #region Tarea 8
+            //solicitar que el usuario ingrese 4 numeros, al finalizar indicar cual de los 4 numeros es el mayor.
+            #endregion
 }
