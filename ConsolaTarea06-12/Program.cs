@@ -77,10 +77,10 @@ namespace ConsolaTarea06_12
             //imprimir
 
             //Console.WriteLine("Favor ingrese 3 numeros, los primeros 2 seran sumados y el tercero realizara una resta");
-           //string numero1 = Console.ReadLine();
+            //string numero1 = Console.ReadLine();
             //int valor1 = Convert.ToInt32(numero1);
             //Console.WriteLine(valor1);
-           // string numero2 = Console.ReadLine();
+            // string numero2 = Console.ReadLine();
             //int valor2 = Convert.ToInt32(numero2);
             //int suma = valor1 + valor2;
             //Console.WriteLine(suma);
@@ -89,8 +89,8 @@ namespace ConsolaTarea06_12
             //Console.WriteLine(valor3);
             //Console.WriteLine(suma - valor3);
 
-            
-           //Console.ReadKey();
+
+            //Console.ReadKey();
             #endregion
 
 
@@ -98,24 +98,49 @@ namespace ConsolaTarea06_12
             //Se necesita que el usuario registre un nombre completo, contraseña, edad y nickname, hacer un formulario basico por consola para consultar estos valores.
             //Estos valores deben ser impresos en pantalla al final en el orden ingresado.
 
-            Console.WriteLine("Favor rellene este formulario");
-            Console.WriteLine("Nombre completo");
-            string nombre = Console.ReadLine();
-            Console.WriteLine("ingrese su contraseña");
-            string contraseña = Console.ReadLine();
-            Console.WriteLine("edad");
-            string edad = Console.ReadLine();
-            int valor = Convert.ToInt32(edad);
-            Console.WriteLine("ingrese su nickname");
-            string nick = Console.ReadLine();
-            Console.WriteLine("su nombre es " + nombre + " su contraseña " + contraseña + " su edad " + edad + " y su nickname " + nick);
+            //Console.WriteLine("Favor rellene este formulario");
+            // Console.WriteLine("Nombre completo");
+            // string nombre = Console.ReadLine();
+            // Console.WriteLine("ingrese su contraseña");
+            //string contraseña = Console.ReadLine();
+            // Console.WriteLine("edad");
+            // string edad = Console.ReadLine();
+            // int valor = Convert.ToInt32(edad);
+            // Console.WriteLine("ingrese su nickname");
+            // string nick = Console.ReadLine();
+            // Console.WriteLine("su nombre es " + nombre + " su contraseña " + contraseña + " su edad " + edad + " y su nickname " + nick);
 
-            Console.ReadKey();
+            // Console.ReadKey();
 
             #endregion
 
             #region Tarea 5
             // Se necesita que el usuario ingrese su edad y se valide si es mayor de edad
+
+            //Console.WriteLine("ingrese su edad");
+            // string cliente   = Console.ReadLine();
+            // int edad1 = Convert.ToInt32(cliente);
+            // int x = 18;
+
+            //if (edad1 > x) 
+            // {
+            //Console.WriteLine("es mayor de edad");
+
+            // }
+            //  else
+            // {
+            // // Console.Write("no es mayor de edad");
+            //}
+
+            // Console.ReadKey();
+
+
+
+
+
+
+
+
             #endregion
 
             #region Tarea 6
@@ -124,13 +149,89 @@ namespace ConsolaTarea06_12
             //si son mas de 6 recibe $500000, si no cumple con ninguna de las condiciones no recibe bono
             #endregion
 
+            //Console.WriteLine("ingrese la cantidad de personas que componen su familia");
+            //string personas = Console.ReadLine();
+            //int cantidad = Convert.ToInt32(personas);
+
+            // if (cantidad > 4 && cantidad <=6)
+            //{
+            // Console.WriteLine("grupo apto para bono de 250000");
+
+            // }
+            // else if (cantidad>6)
+            // {
+            // Console.WriteLine("grupo apto para bono de 500000");
+            //  }
+            //else
+            // {
+            //Console.WriteLine("no cumple con los requisitos");
+            // }
+
+            //Console.ReadKey();
+
             #region Tarea 7
             // se necesita que el usuario ingrese la cantidad de kilos de la maleta, si pesa mas de 21
             // requerira pagar un extra por la maleta, si no puede pasar sin recargo
+
+            // Console.WriteLine("ingrese el peso de su maleta");
+            // string peso = Console.ReadLine();
+            // double peso1 = Convert.ToDouble(peso);
+            // int peso2 = Convert.ToInt32(peso1);
+
+            // if (21>peso2)
+            {
+                // Console.WriteLine("no paga extra");
+            }
+            // else
+            {
+                //Console.WriteLine("paga extra");
+            }
+
+
+            //Console.ReadKey();
             #endregion
 
             #region Tarea 8
             //solicitar que el usuario ingrese 4 numeros, al finalizar indicar cual de los 4 numeros es el mayor.
+
+            Console.WriteLine("ingrese 4 numeros");
+            string a = Console.ReadLine();
+            int z = Convert.ToInt32(a);          
+            string s = Console.ReadLine();
+            int x = Convert.ToInt32(s);
+            string d = Console.ReadLine();
+            int c = Convert.ToInt32(d);
+            string f = Console.ReadLine();
+            int v = Convert.ToInt32(f);
+            int retorno = 0;
+
+            if (z>x)
+            {
+                retorno = z;
+            }
+            else
+            {
+                retorno = x;
+            }
+
+            if (c > retorno)
+            {
+                retorno = c;
+
+            }
+
+            if (v>retorno)
+
+            {
+                retorno = v;
+                
+            }
+            Console.WriteLine("el numero mayo es " + retorno);
+
+
+
+            Console.ReadKey();
+
             #endregion
 
 
