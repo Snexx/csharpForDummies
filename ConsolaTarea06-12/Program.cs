@@ -190,7 +190,7 @@ namespace ConsolaTarea06_12
             //Console.ReadKey();
             #endregion
 
-            #region Tarea 8 NOK
+
             #region Tarea 8
 
             //solicitar que el usuario ingrese 4 numeros, al finalizar indicar cual de los 4 numeros es el mayor.
@@ -590,16 +590,286 @@ namespace ConsolaTarea06_12
             //Console.ReadKey();
             #endregion
 
+            #region Tarea 20
+            //Realiza un programa en C#, que muestre los primeros 100 números enteros iniciando desde el 1.
 
 
+
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 21
+            //Realiza un programa en C#, que muestre los primeros 100 números de forma inversa, es decir, del 100 al 1
+
+            //for (int i = 100; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Tarea 22
+            //Realiza un programa en C#, que muestre únicamente, los números pares en el rango del 1 al 100
+
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    if (i%2==0)
+            //    {
+            //        Console.WriteLine(i + " es numero par");
+            //    }
+            //}
+
+            //Console.ReadKey();
+
+
+            #endregion
+
+            #region Tarea 23
+            //Realiza un programa en C#, que muestre la suma de los números del 1 al 100
+
+            //int suma = 0;
+
+
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    suma = suma + i;
+
+            //}
+            //Console.WriteLine(suma);
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Tarea 23
+            //Realiza un programa en C#, que muestre la multiplicacion de los números del 1 al 10
+            //int multiplicacion = 1;
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    multiplicacion = multiplicacion * i;
+            //}
+
+            //Console.WriteLine(multiplicacion);
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Tarea 24
+
+            //string[] animales = { "perro", "oso", "panda", "lobo" };
+            //foreach (var animal in animales)
+            //{
+            //    Console.WriteLine(animal);
+            //}
+            //Console.WriteLine(animales.Length);
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 25
+            //Crea un array de 10 posiciones, pide los valores por consola y muestra el array.
+            //int[] posiciones = new int[10];
+
+            //for (int i = 0; i < posiciones.Length; i++)
+            //{
+            //    Console.WriteLine("ingrese un valor en la posicion" + i);
+            //   int posicion= Convert.ToInt32(Console.ReadLine());
+            //    posiciones[i] = posicion;
+            //}
+            //foreach (var posicion in posiciones)
+            //{
+            //    Console.WriteLine(posicion);
+            //}
+
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Tarea 26
+
+            //1.Crea un array de 10 posiciones, con valores puestos por ti y muestra el array.
+
+
+            //int[] lugares = {1, 4, 5,7,2,3,6,9,10,8 };
+            //foreach (var lugar in lugares)
+            //{
+            //    Console.WriteLine(lugar);
+
+            //}
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 27
+
+            //2.Crea un array de 10 posiciones, pide los valores por consola y muestra el array
+
+            //int[] posiciones = new int[10];
+            //for (int i = 0; i < posiciones.Length; i++)
+            //{
+            //    Console.WriteLine("ingrese un valor en la posicion" + i);
+
+            //    int posicion = Convert.ToInt32(Console.ReadLine());
+            //    posiciones[i] = posicion;
+            //}
+            //foreach (var posicion in posiciones)
+            //{
+            //    Console.WriteLine(posicion);
+            //}
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 28
+            //3.	Sumar los valores de un array y mostrar el resultado.
+
+            //int[] valores = { 1, 4, 5, 7, 2, 3, 6, 9, 10, 8 };
+            //int suma = 0;
+
+            //for (int i = 1; i < valores.Length; i++)
+            //{
+            //    suma = suma + valores[i];
+            //}
+            //Console.WriteLine(suma);
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Tarea 29
+            //-Hacer la media de los valores de un array y mostrar el resultado.
+            //int[] valores = { 1, 4, 5, 7, 2, 3, 6, 9, 10, 8 };
+            //int suma = 0;
+            //double promedio = 0;
+
+            //for (int i = 0; i < valores.Length; i++)
+            //{
+            //    suma = suma + valores[i];
+
+
+            //}
+            //promedio = Convert.ToDouble(suma) / Convert.ToDouble(valores.Length);
+            //Console.WriteLine(promedio);
+
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 30
+            //Pedir un numero por teclado y multiplicar todos los valores de un array.
+            //int[] multi = { 1, 4, 5, 7, 2, 3, 6, 9, 10, 8 };
+            //int multiplo = Convert.ToInt32(Console.ReadLine());
+
+
+            //for (int i = 0; i < multi.Length; i++)
+            //{
+
+            //    var resultado = multiplo * multi[i];
+            //    Console.WriteLine(resultado);
+
+            //}
+
+
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Tarea 31
+            // Dado un array de números con el método sort, ordenalos y muestra su contenido.
+            //int[] valores = { 1, 4, 5, 7, 2, 3, 6, 9, 10, 8 };
+            //Array.Sort(valores);
+
+            //for (int i = 0; i < valores.Length; i++)
+            //{
+            //    Console.WriteLine(valores[i]);
+            //}
+
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Tarea 32
+            //Dado un array de números, muestra el mayor y el menor.
+            //int[] valores = { 1, 4, 5, 7, 2, 3, 6, 9, 10, 8 };
+            //Array.Sort(valores);
+            //Console.WriteLine(" el valor minimo es : " + valores [0]);
+            //Console.WriteLine(" el valor mayor es : " + valores[valores.Length - 1]);
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 33
+            //Genera dos arrays con valores aleatoreos e indica cuantos valores coinciden, si aciertas 3 o mas se mostrará un mensaje de felicitaciones.
+
+            //Random r = new Random();
+            //int longitud = 10;
+            //int coincidencias = 0;
+            //int[] valores1 = new int[longitud];
+            //int[] valores2 = new int[longitud];
+            //int[] valores3 = new int[longitud];
+
+            //for (int i = 0; i < valores1.Length; i++)
+            //{
+            //    valores1[i] = r.Next(1, 50);
+            //    Console.WriteLine(valores1[i]);
+            //}
+            //for (int i = 0; i < valores2.Length; i++)
+            //{
+            //    valores2[i] = r.Next(1, 50);
+            //    Console.WriteLine(valores2[i]);
+            //}
+            //for (int i = 0; i < valores1.Length; i++)
+            //{
+            //    for (int j = 0; j < valores2.Length; j++)
+            //    {
+            //        if (valores1[i] == valores2[j])
+            //        {
+            //            bool existe = false;
+            //            for (int k = 0; k < coincidencias; k++)
+            //            {
+            //                if (valores3[k] == valores1[i])
+            //                {
+            //                    existe = true;
+            //                }
+            //            }
+            //            if (!existe)
+            //            {
+            //                valores3[coincidencias] = valores1[i];
+            //                coincidencias++;
+            //            }
+            //        }
+            //    }
+            //}
+            //Console.WriteLine("Coincidencias");
+            //for (int i = 0; i < valores3.Length; i++)
+            //{
+            //    Console.WriteLine(valores3[i]);
+            //}
+            //if (coincidencias>=3)
+            //{
+            //    Console.WriteLine("Ganaste ctm toma un sushi");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("perdiste ctm toma un sushi");
+            //}
+
+
+            //Console.ReadKey();
+            #endregion
         }
-
-
-
-
 
 
     }
 }
-
-
