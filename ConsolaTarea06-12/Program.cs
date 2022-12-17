@@ -868,7 +868,220 @@ namespace ConsolaTarea06_12
 
             //Console.ReadKey();
             #endregion
+
+            #region Tarea 34
+            //dado un string ingresado por consola, imprimir el string al revés ej: auto -> otua
+            //string val1 = "Auto";
+            //char[] val2 = val1.ToCharArray();
+            //Array.Reverse(val2);
+            //string val3 = new string(val2);
+            //Console.WriteLine(val3);
+
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 35
+            //dado un string ingresado por consola, calcular el numero de vocales y consonantes
+            // Console.WriteLine(" ingrese sushi");
+            //string val1 = Console.ReadLine().ToUpper().Trim();
+            // char[] val2 = val1.ToCharArray();
+            // int vocales = 0;
+            // int consonante = 0;
+
+            // for (int i = 0; i < val2.Length; i++)
+            // {
+            //     if (val2[i] == 'A'|| val2[i] == 'E' || val2[i] == 'I' || val2[i] == 'O' || val2[i] == 'U')
+            //     {
+            //         vocales++; 
+            //     }
+            //     //else if (val2[i] == ' ')
+            //     //{
+            //     //    continue;
+            //     //}
+            //     else
+            //     {
+            //         consonante++;
+            //     }
+
+            // }
+            // Console.WriteLine($"el numero de vocales es : {vocales} y las consonantes son {consonante}");
+
+            // Console.ReadKey();
+            #endregion
+
+            #region Tarea 36
+            //dado un string ingresado por consola, validar si el string es un palíndromo(se lee al derecho y revés de la misma manera) ej: narran
+            //Console.WriteLine("ingrese una palabra");
+            //string val1 = Console.ReadLine();
+            //char[] val2 = val1.ToCharArray();
+            //Array.Reverse(val2);
+            //string val3 = new string(val2);    
+
+            //if (val1==val3)
+            //{
+            //    Console.WriteLine("es un palindromo");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("no es un palindromo");
+            //}
+
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 37 desde aqui ta listo
+            //Dado un string ingresado por consola, imprime el numero de letras que contiene
+            //solicita un texto a cliente
+            // imprime la cantidad de letras,no contar espacios.
+
+            //Console.WriteLine("ingrese una frase o texto");
+            //string val1 = Console.ReadLine();
+            //val1 = val1.Replace(" " , "");
+
+            //Console.WriteLine($" la cantidad de letras ingresadas son: {val1.Length}");
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Tarea 38
+            //dado un string ingresado por consola, imprime los caracteres por separado ej: hola = h o l a
+            //Console.WriteLine("ingrese una frase o texto");
+            //String frase = Console.ReadLine();
+            //char[] frases = frase.ToCharArray();
+
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Tarea 39 jojojo aca
+
+            //dado 2 string ingresado por consola, indica si ambos strings son iguales
+
+            //string mensaje1 = Console.ReadLine();
+            ////char[] mensajes1 = mensaje1.ToCharArray();
+            //string mensaje2 = Console.ReadLine();
+            ////char[] mensajes2 = mensaje2.ToCharArray();
+
+            //if (mensaje1 == mensaje2)
+            //{
+            //    Console.WriteLine("son iguales");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("no son iguales");
+            //}
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 40 trabajando  tamos listos
+
+            //dado un string ingresado por consola, imprimelo en orden de abc
+            //string frase = "chupapi kasjdkasd";
+            //char[] frases = frase.ToCharArray();
+            //Array.Sort(frases);
+
+            //Console.WriteLine(frases);
+
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 41
+            //dado un string, calcular el numero de palabras "NO"
+            //string palabra = Console.ReadLine();
+            //// transformar el texto en un arreglo de caracteres
+            //char[] caracteres = palabra.ToCharArray();
+            ////definir un contador de palabras
+            //// contador debe partir con 1
+            //int contador = 1;
+            //// recorrer el arreglo de caracter y definir si es un espacio, un salto de linea o un tab.
+            //foreach (var caracter in caracteres)
+            //{
+            //    if (caracter==' ' || caracter=='\n' || caracter== '\t')
+            //    {
+            //        contador++;
+            //    }
+            //}
+
+
+            //// imprimir cantidad de palabras
+            //Console.WriteLine($"la catidad de palabras escritas es: {contador}");
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Tarea 42
+            //dado un string ingresado por consola, la cantidad de letras, cantidad de números y cantidad de caracteres especiales
+            //string msjUsuario = Console.ReadLine();
+            //// transformar texto en un arreglo char
+            //char[] caracteres = msjUsuario.ToCharArray();
+            ////definir contadores
+            //int letra = 0;
+            //int numero = 0;
+            //int especial = 0;
+            ////recorrer el arreglo para definir contadores
+            //foreach (var caracter in caracteres)
+            //{
+            //    if ((caracter>= 'a'&& caracter <='z')||(caracter >= 'A' && caracter <= 'Z'))
+            //    {
+            //        letra++;
+            //    }
+            //    else if (caracter>='0' && caracter<='9')
+            //    {
+            //        numero++;
+            //    }
+            //    else 
+            //    {
+            //        especial++;
+            //    }
+
+            //}
+            //Console.WriteLine($"La cantidad de letras en el texto es de {letra} la cantidad de numeros {numero} y la cantidad de caracteres especiales es de {especial}");
+
+            //Console.ReadKey();
+            //imprimir valores
+
+            #endregion
+
+            #region Tarea 43
+            //  dado un string ingresado por consola, transforma las minúsculas en mayúsculas y viceversa "NO"
+            // ingresa un texo
+            //string textoUser = Console.ReadLine();
+            //char[] textos = textoUser.ToCharArray();
+            
+            ////transformar minusculas en mayusculas
+
+            //foreach (var texto in textos)
+            //{
+            //    if (texto >= 'a' && texto <= 'z')
+            //    {
+            //        Console.Write(Char.ToUpper(texto));
+                    
+            //    }
+            //    else if ((texto >= 'A' && texto <= 'Z'))
+            //    {
+            //        Console.Write(Char.ToLower(texto));
+            //    }
+            //    else 
+            //    {
+            //        Console.Write(texto);
+            //    }
+            //}
+
+
+            //Console.ReadKey();
+            //transformar mayusculas en minusculas
+
+            // imprimir el texto
+
+            #endregion
         }
+
 
 
     }
