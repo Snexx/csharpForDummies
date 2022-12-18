@@ -1053,7 +1053,7 @@ namespace ConsolaTarea06_12
             // ingresa un texo
             //string textoUser = Console.ReadLine();
             //char[] textos = textoUser.ToCharArray();
-            
+
             ////transformar minusculas en mayusculas
 
             //foreach (var texto in textos)
@@ -1061,7 +1061,7 @@ namespace ConsolaTarea06_12
             //    if (texto >= 'a' && texto <= 'z')
             //    {
             //        Console.Write(Char.ToUpper(texto));
-                    
+
             //    }
             //    else if ((texto >= 'A' && texto <= 'Z'))
             //    {
@@ -1079,6 +1079,19 @@ namespace ConsolaTarea06_12
 
             // imprimir el texto
 
+            #endregion
+
+            #region 44
+            //Solicitar por consola una fecha de vencimiento (año, mes , dia, hora) y calcular en base a la hora actual
+            //si esta vencido o no
+
+            //Fecha vencimiento sea menor que la fecha actual (Esta bencido)
+            //Fecha vencimiento sea mayor que la fecha actual (Aun no vence)
+
+            #endregion
+
+            #region 45
+            //
             #endregion
         }
 

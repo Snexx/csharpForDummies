@@ -120,50 +120,82 @@ namespace ConsoleForDummies
             //    Console.WriteLine(" ");
             //}
 
-            string[] autos = { "Juan", "Pedro", "Rodrigo", "" };
-            Array.Sort(autos);
-            foreach (string auto in autos)
-            {
-                Console.WriteLine(auto);
-            }
-
-            #region Continue
-            //Console.WriteLine("Ingrese un numero");
-            //int numerConsola = Convert.ToInt32(Console.ReadLine());
-
-
-            //int[] ListaNumeros2 = { 5000, 6000, 9000,12000,7000,15000 };
-            //foreach (int numero in ListaNumeros2)
+            //string[] autos = { "Juan", "Pedro", "Rodrigo", "" };
+            //Array.Sort(autos);
+            //foreach (string auto in autos)
             //{
-
-            //    if (numero <= numerConsola)
-            //    {
-            //        continue;
-            //    }
-            //    Console.Write(" " + numero + " ");
+            //    Console.WriteLine(auto);
             //}
-            //Console.Write("For terminado");
+
+            //#region Continue
+            ////Console.WriteLine("Ingrese un numero");
+            ////int numerConsola = Convert.ToInt32(Console.ReadLine());
+
+
+            ////int[] ListaNumeros2 = { 5000, 6000, 9000,12000,7000,15000 };
+            ////foreach (int numero in ListaNumeros2)
+            ////{
+
+            ////    if (numero <= numerConsola)
+            ////    {
+            ////        continue;
+            ////    }
+            ////    Console.Write(" " + numero + " ");
+            ////}
+            ////Console.Write("For terminado");
+            ////Console.ReadKey();
+            //#endregion
+
+            //#region Break
+            ////int[] ListaNumeros = { 10000, 11000, 9000, 15000 };
+            ////foreach (int numero in ListaNumeros)
+            ////{
+            ////    if (numero < 10000)
+            ////    {
+            ////        break;
+            ////    }
+            ////    Console.Write(" " + numero + " ");
+            ////}
+            ////Console.Write("For terminado");
+            //#endregion
+
+            //#region Sort
+            ////string[] autosSort = { "Juan", "Pedro", "Rodrigo", "" };
+            ////Array.Sort(autosSort);
+            //#endregion
             //Console.ReadKey();
-            #endregion
 
-            #region Break
-            //int[] ListaNumeros = { 10000, 11000, 9000, 15000 };
-            //foreach (int numero in ListaNumeros)
-            //{
-            //    if (numero < 10000)
-            //    {
-            //        break;
-            //    }
-            //    Console.Write(" " + numero + " ");
-            //}
-            //Console.Write("For terminado");
-            #endregion
+            Console.WriteLine("Ingrese Año");
+            var año = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese Mes");
+            var mes = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese Dia");
+            var dia = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese Hora");
+            var hora = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese Minutos");
+            var minutos = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese Segundos");
+            var segundos = Convert.ToInt32(Console.ReadLine());
 
-            #region Sort
-            //string[] autosSort = { "Juan", "Pedro", "Rodrigo", "" };
-            //Array.Sort(autosSort);
-            #endregion
+            var fechaActual = DateTime.Now;
+            var fechaUtcActual = DateTime.UtcNow;
+
+            var fechaDate = new DateTime(año, mes, dia);
+            var fechaNacimiento = new DateTime(año, mes, dia, hora, minutos, segundos);
+
+            var mayorEdad = fechaActual.AddYears(-18);
+            var fechaHace1Hora = fechaActual.AddHours(-1);
+            //Mayor de edad en Chile edad > =  18
+            if (fechaNacimiento >= mayorEdad)
+            {
+                Console.WriteLine("No es mayor de edad");
+            }
+            //https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1
+            fechaNacimiento.ToString("dd/MM/yyyy");
+
             Console.ReadKey();
+            
         }
     }
 }

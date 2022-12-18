@@ -8,8 +8,6 @@ namespace ConsoleForDummies
 {
     public class metodosClass
     {
-        MyMethod();
-
         
     }
     
