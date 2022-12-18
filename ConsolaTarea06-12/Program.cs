@@ -466,7 +466,7 @@ namespace ConsolaTarea06_12
             //Console.ReadKey();
             #endregion
 
-            #region Tarea 16
+            #region Tarea 16 Promedio de notas
 
             ////Cree un programa que lea 5 notas, calcule el promedio e imprima si aprobó o reprobó(promedio > 4 = aprobó)
 
@@ -496,9 +496,9 @@ namespace ConsolaTarea06_12
 
             //Console.ReadKey();
 
-            #endregion
+            #endregion  //Promedio de notas
 
-            #region Tarea 17
+            #region Tarea 17 verifica triangulo en base a sus lados
             //Cree un programa que lea los 3 lados de un triangulo y nos diga si es Equilátero, Isósceles o Escaleno
 
             //Console.WriteLine("ingrese 3 valores para el triangulo");
@@ -527,7 +527,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 18
+            #region Tarea 18 ejercicio switch
 
             //Cree un programa que permita ingresar una vocal y te devuelva una palabra que empiece por esa vocal. 
 
@@ -590,7 +590,7 @@ namespace ConsolaTarea06_12
             //Console.ReadKey();
             #endregion
 
-            #region Tarea 20
+            #region Tarea 20 primeros 100 numeros de un array
             //Realiza un programa en C#, que muestre los primeros 100 números enteros iniciando desde el 1.
 
 
@@ -603,7 +603,7 @@ namespace ConsolaTarea06_12
             //Console.ReadKey();
             #endregion
 
-            #region Tarea 21
+            #region Tarea 21 Forma Inversa de numeros
             //Realiza un programa en C#, que muestre los primeros 100 números de forma inversa, es decir, del 100 al 1
 
             //for (int i = 100; i > 0; i--)
@@ -615,7 +615,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 22
+            #region Tarea 22 Numeros pares del 1 al 100
             //Realiza un programa en C#, que muestre únicamente, los números pares en el rango del 1 al 100
 
             //for (int i = 1; i <= 100; i++)
@@ -631,7 +631,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 23
+            #region Tarea 23 Suma del 1 al 100
             //Realiza un programa en C#, que muestre la suma de los números del 1 al 100
 
             //int suma = 0;
@@ -648,7 +648,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 23
+            #region Tarea 23 Multiplicacion del 1 al 10
             //Realiza un programa en C#, que muestre la multiplicacion de los números del 1 al 10
             //int multiplicacion = 1;
 
@@ -663,7 +663,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 24
+            #region Tarea 24 creacion de string
 
             //string[] animales = { "perro", "oso", "panda", "lobo" };
             //foreach (var animal in animales)
@@ -675,7 +675,7 @@ namespace ConsolaTarea06_12
             //Console.ReadKey();
             #endregion
 
-            #region Tarea 25
+            #region Tarea 25 array de 10 posiciones
             //Crea un array de 10 posiciones, pide los valores por consola y muestra el array.
             //int[] posiciones = new int[10];
 
@@ -695,7 +695,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 26
+            #region Tarea 26 array de posiciones
 
             //1.Crea un array de 10 posiciones, con valores puestos por ti y muestra el array.
 
@@ -710,7 +710,7 @@ namespace ConsolaTarea06_12
             //Console.ReadKey();
             #endregion
 
-            #region Tarea 27
+            #region Tarea 27 array de posiciones, imprimidos en consola
 
             //2.Crea un array de 10 posiciones, pide los valores por consola y muestra el array
 
@@ -729,7 +729,7 @@ namespace ConsolaTarea06_12
             //Console.ReadKey();
             #endregion
 
-            #region Tarea 28
+            #region Tarea 28 suma valores de un array
             //3.	Sumar los valores de un array y mostrar el resultado.
 
             //int[] valores = { 1, 4, 5, 7, 2, 3, 6, 9, 10, 8 };
@@ -745,7 +745,7 @@ namespace ConsolaTarea06_12
 
             #endregion
 
-            #region Tarea 29
+            #region Tarea 29 Promedio de un array
             //-Hacer la media de los valores de un array y mostrar el resultado.
             //int[] valores = { 1, 4, 5, 7, 2, 3, 6, 9, 10, 8 };
             //int suma = 0;
